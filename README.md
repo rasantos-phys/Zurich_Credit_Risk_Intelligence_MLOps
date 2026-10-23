@@ -33,9 +33,8 @@ In the competitive financial landscape of Zurich, corporate banks face increasin
 
 ## 📁 Project Structure
 
-The repository is modularly organized following enterprise software engineering best practices:
+The repository is modularly organized following enterprise software engineering best practices
 
-```text
 zurich-credit-risk/
 │
 ├── data/                      # Raw and processed corporate financial data
@@ -51,9 +50,7 @@ zurich-credit-risk/
 ├── requirements.txt           # Pinned project dependencies
 └── README.md                  # Project documentation (this file)
 
----
-
-## 📈 Results -  Business Conclusions
+## 📊 Results & Business Impact
 Three distinct machine learning models were trained and benchmarked under strict cross-validation protocols: Logistic Regression, Random Forest, and XGBoost.
 
 Performance Leader: XGBoost outperformed baseline models, achieving an AUC-ROC of 0.89, successfully capturing non-linear distress patterns in corporate balance sheets.
@@ -62,9 +59,7 @@ Risk Control: The optimized classification threshold kept the False Negative Rat
 
 Strategic Value: Automating the preliminary scoring pipeline reduces corporate loan review turnaround times from several business days to under 5 minutes, drastically improving operational efficiency and client experience without elevating risk exposure.
 
----
-
-🚀 Getting Started & Prerequisites
+## 🚀 Getting Started & Prerequisites
 To run this project locally on your machine using VS Code, follow these step-by-step instructions:
 
 Prerequisites
@@ -72,9 +67,14 @@ Ensure you have Python 3.10+ installed.
 
 Ensure Git is installed on your system.
 
-## 📄 License
+
+📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-## Author
-Robinson Alves Dos Santos
-Data Scientist, Machine Learning Engineer, Physicist, PhD
+# Author
+Robinson Alves Dos Santos.
+
+Data Scientist, Machine Learning Engineer, Physicist, PhD.
+
+
+
